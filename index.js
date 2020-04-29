@@ -1,5 +1,3 @@
-function powerOf (a, b) {
-  return a**b
-}
+const powerOf = require('./second-module/power.js')
 
 console.log(powerOf(2,10))
